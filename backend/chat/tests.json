@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "POST chat message",
+      "method": "POST",
+      "path": "/",
+      "body": {"messages": [{"role": "user", "content": "Привет"}]},
+      "expectedStatus": 200
+    }
+  ]
+}

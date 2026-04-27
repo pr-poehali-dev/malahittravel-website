@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "POST order",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Тест", "phone": "+79001234567", "tourTitle": "Тестовый тур"},
+      "expectedStatus": 201
+    }
+  ]
+}

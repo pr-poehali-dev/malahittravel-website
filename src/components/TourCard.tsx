@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Tour } from '@/data/tours';
+import { Tour } from '@/lib/api';
 import Icon from '@/components/ui/icon';
 
 type Props = { tour: Tour };
